@@ -1,0 +1,176 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>AI Career Mentor</title>
+
+    <link rel="stylesheet" href="style.css">
+
+    <link rel="stylesheet"
+        href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css">
+</head>
+
+<body>
+
+    <!-- Theme Toggle -->
+    <button id="themeToggle" class="theme-btn">
+        <i class="fas fa-moon"></i>
+    </button>
+
+    <!-- Hero Section -->
+    <header class="hero">
+        <h1>AI Career Mentor</h1>
+        <p id="typing-text"></p>
+        <a href="#profile" class="hero-btn">Get Started</a>
+    </header>
+
+    <!-- Statistics -->
+    <section class="stats">
+        <div class="stat-card">
+            <h2 class="counter" data-target="5000">0</h2>
+            <p>Students Guided</p>
+        </div>
+
+        <div class="stat-card">
+            <h2 class="counter" data-target="120">0</h2>
+            <p>Career Paths</p>
+        </div>
+
+        <div class="stat-card">
+            <h2 class="counter" data-target="95">0</h2>
+            <p>Success Rate %</p>
+        </div>
+    </section>
+
+    <!-- Profile Section -->
+    <section class="profile-section" id="profile">
+
+        <h2>Create Your Profile</h2>
+
+        <div class="form-container">
+
+            <input type="text" id="name" placeholder="Enter Your Name">
+
+            <input type="text" id="interest" placeholder="Interest (AI, Data Science, Web Development)">
+
+            <input type="text" id="skills" placeholder="Skills">
+
+            <input type="text" id="education" placeholder="Education">
+
+            <button id="generateBtn">
+                Generate Career Path
+            </button>
+
+        </div>
+
+    </section>
+
+    <!-- Career Recommendations -->
+    <section class="career-section">
+
+        <h2>Recommended Careers</h2>
+
+        <div id="careerResults" class="career-results">
+
+        </div>
+
+    </section>
+
+    <!-- Roadmap -->
+    <section class="roadmap-section">
+
+        <h2>Learning Roadmap</h2>
+
+        <div id="roadmap">
+
+        </div>
+
+        <button id="downloadRoadmap">
+            Download Roadmap
+        </button>
+
+    </section>
+
+    <!-- Progress Tracker -->
+    <section class="progress-section">
+
+        <h2>Learning Progress</h2>
+
+        <div class="progress-container">
+
+            <div class="progress-bar">
+                <div id="progressFill"></div>
+            </div>
+
+            <button id="progressBtn">
+                Mark Next Step Complete
+            </button>
+
+        </div>
+
+    </section>
+
+    <!-- Resources -->
+    <section class="resources-section">
+
+        <h2>Recommended Resources</h2>
+
+        <div id="resources">
+
+        </div>
+
+    </section>
+
+    <!-- AI Chat -->
+    <section class="chat-section">
+
+        <h2>AI Career Assistant</h2>
+
+        <div class="chat-box" id="chatBox">
+
+            <div class="bot-message">
+                Hello! Ask me anything about careers.
+            </div>
+
+        </div>
+
+        <div class="chat-input">
+
+            <input type="text"
+                id="userInput"
+                placeholder="Ask a question...">
+
+            <button id="sendBtn">
+                Send
+            </button>
+
+        </div>
+
+    </section>
+
+    <!-- Footer -->
+    <footer>
+
+        <h3>AI Career Mentor</h3>
+
+        <p>
+            Empowering students through AI-driven guidance.
+        </p>
+
+        <p>
+            Built using HTML, CSS, JavaScript & JSON
+        </p>
+        
+        <p>
+            Made with ❤️ by Zaira
+        </p>
+
+    </footer>
+
+    <script src="script.js"></script>
+
+</body>
+
+</html>

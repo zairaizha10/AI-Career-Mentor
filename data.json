@@ -1,0 +1,140 @@
+{
+  "careers": {
+    "AI": [
+      "AI Engineer",
+      "Machine Learning Engineer",
+      "Deep Learning Engineer",
+      "Prompt Engineer"
+    ],
+
+    "Data Science": [
+      "Data Scientist",
+      "Data Analyst",
+      "Business Analyst",
+      "Research Scientist"
+    ],
+
+    "Web Development": [
+      "Frontend Developer",
+      "Backend Developer",
+      "Full Stack Developer",
+      "UI/UX Developer"
+    ],
+
+    "Cyber Security": [
+      "Security Analyst",
+      "Ethical Hacker",
+      "SOC Analyst",
+      "Security Engineer"
+    ],
+
+    "Cloud Computing": [
+      "Cloud Engineer",
+      "DevOps Engineer",
+      "Cloud Architect",
+      "Site Reliability Engineer"
+    ]
+  },
+
+  "roadmaps": {
+    "AI": [
+      "Learn Python Fundamentals",
+      "Learn Statistics & Probability",
+      "Study Machine Learning",
+      "Build AI Projects",
+      "Learn Deep Learning",
+      "Create Portfolio"
+    ],
+
+    "Data Science": [
+      "Python Basics",
+      "Data Analysis with Pandas",
+      "Statistics",
+      "Machine Learning",
+      "Data Visualization",
+      "Portfolio Projects"
+    ],
+
+    "Web Development": [
+      "HTML",
+      "CSS",
+      "JavaScript",
+      "React",
+      "Node.js",
+      "Full Stack Projects"
+    ],
+
+    "Cyber Security": [
+      "Networking Basics",
+      "Linux",
+      "Cyber Security Fundamentals",
+      "Ethical Hacking",
+      "Penetration Testing",
+      "Security Projects"
+    ],
+
+    "Cloud Computing": [
+      "Linux Basics",
+      "Networking",
+      "AWS Fundamentals",
+      "Docker",
+      "Kubernetes",
+      "Cloud Projects"
+    ]
+  },
+
+  "resources": {
+    "AI": [
+      "Andrew Ng Machine Learning Course",
+      "DeepLearning.AI",
+      "Python for AI Projects",
+      "Kaggle Competitions"
+    ],
+
+    "Data Science": [
+      "NPTEL Data Science Courses",
+      "Kaggle",
+      "Pandas Documentation",
+      "Statistics Books"
+    ],
+
+    "Web Development": [
+      "freeCodeCamp",
+      "MDN Web Docs",
+      "JavaScript.info",
+      "Frontend Mentor"
+    ],
+
+    "Cyber Security": [
+      "TryHackMe",
+      "Hack The Box",
+      "OWASP",
+      "Cybrary"
+    ],
+
+    "Cloud Computing": [
+      "AWS Skill Builder",
+      "Google Cloud Skills Boost",
+      "Docker Documentation",
+      "Kubernetes Documentation"
+    ]
+  },
+
+  "chatResponses": {
+    "data scientist": "A Data Scientist collects, analyzes and interprets data using statistics, machine learning and visualization tools.",
+
+    "ai engineer": "An AI Engineer builds intelligent systems using machine learning, deep learning and generative AI technologies.",
+
+    "web developer": "A Web Developer creates websites and web applications using HTML, CSS, JavaScript and backend technologies.",
+
+    "cyber security": "Cyber Security professionals protect systems and networks from digital attacks and vulnerabilities.",
+
+    "cloud": "Cloud Engineers manage cloud infrastructure and services such as AWS, Azure and Google Cloud.",
+
+    "skills": "Strong communication, problem solving, programming and analytical thinking are valuable skills for technology careers.",
+
+    "roadmap": "Choose a domain, learn fundamentals, build projects, create a portfolio and apply for internships.",
+
+    "internship": "Build strong projects, maintain a GitHub profile, participate in hackathons and continuously improve your skills."
+  }
+}
